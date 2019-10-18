@@ -1,0 +1,46 @@
+.header__wrap--bg--mobile.home, .header__wrap--bg.home {
+  background: url('../assets/images/home-page-edit-02-uai-1440x761.jpg') rgba(0, 0, 0, .5) no-repeat !important;
+  background-size: 100% 100% !important;
+  position: relative;
+  background-blend-mode: multiply;
+  /* min-height: 750px; */
+}
+.header__wrap--bg--mobile.speakers, .header__wrap--bg.speakers {
+  background: url('../assets/images/18TEDX_SEA-551.jpg') rgba(0, 0, 0, .5) no-repeat !important;
+  background-size: 100% 100% !important;
+  position: relative;
+  background-blend-mode: multiply;
+}
+
+.header__wrap--bg--mobile {
+  min-height: 350px;
+}
+.header__wrap--bg {
+  min-height: 750px;
+}
+
+.item-intro {
+  display: flex;
+  align-items: center;
+}
+.item__wrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.item-speak-time {
+  display: inline-block;
+  padding: .4em .45em .3em;
+  margin-left: auto;
+  font-size: 0.9rem;
+  background-color: #9B9B9B;
+}
+.talk__desc {
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
